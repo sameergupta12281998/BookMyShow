@@ -17,6 +17,7 @@ public class BookingService {
     private final PaymentRepository paymentRepo;
     private final NotificationService notificationService;
 
+    // Constructor Injection
     public BookingService(ShowRepository showRepo,
                           ShowSeatRepository showSeatRepo,
                           BookingRepository bookingRepo,
